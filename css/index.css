@@ -1,0 +1,252 @@
+
+*{
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+    
+}
+html { scroll-behavior: smooth;}
+/* CIMA*/
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    background-position: center; 
+  }
+
+#main_tittle{
+      font-size: 7vh;
+  }
+#wrapper, #footer, #footer_fav{
+  width:200vh;
+  height:100%;
+  margin: 0 auto;
+}
+
+#footer, #footer_fav{
+  height: 5vh;
+  width: 50vh;
+  text-align: center;
+  padding: 1vh;
+  margin-top: 500vh;
+}
+
+#footer_text{
+  font-size: 2.5vh;
+  margin: 1vh;
+  background-color: #A40606;
+  margin-top: 20vh;
+
+}
+#footer_fav{
+}
+.header_img{
+  height:16vh;
+  margin-top: 2vh;
+  margin-bottom: -2vh;
+}
+#header {
+    background-color: rgb(164, 6, 6, 0.8);
+    height:40vh;
+    width:100%;
+    text-align: center;
+}
+#header_title1{
+  font-size: 7vh;
+  color: #ffffff;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: -3vh;
+  margin-bottom: -5vh;
+}
+
+/* ORGANIZAÇÃO*/
+#middle, #right, #left, #middle_fav{
+  width: 100vh;
+  float: left;
+}
+#right, #left{
+  max-width: 50vh;
+}
+
+/* bio principal*/
+.section_info_middle, .section_info_right{
+  background-color: rgb(164, 6, 6, 0.9);
+  padding: 2vh 3vh 4vh 3vh;
+  max-width: 100vh;
+}
+.section_info_right{
+  max-width: 50vh;
+  background-color: #111111;
+  font-size: 2.5vh;
+  border: 0.2vh solid #A40606;
+}
+h1{
+  font-size: 5vh;
+}
+.section_info{
+  font-size: 2.5vh; 
+}
+.mini_text1, .mini_text2, .text_2, .text, .text_2_socials{
+  margin-left: 3vh;
+  line-height: 1.8;
+  text-align: center;
+}
+.text{
+  font-size: 3vh;
+}
+.mini_text2{
+  margin-top: -3vh;
+  font-style: normal;
+}
+
+.text_2{
+  font-style: normal;
+  margin-top: 3vh;
+}
+.mini_text{
+  font-size: 2vh;;
+}
+
+/* MENU*/
+h2{
+  margin-top: -1vh;
+  width:100%;
+  margin: 2vh 0vh 1vh 1vh; 
+  font-size: 5vh; 
+  text-align: center;
+}
+/* ASIDE + IMAGES*/
+.img_aside, .img_middle, .blink_aside, .img_aside_middle{
+  width:100%;
+  margin-top: 0.5vh;
+  margin-bottom: 2vh;
+ }
+.blink_aside, .img_aside_middle{
+  margin-right: 0.5vh;
+  width: 30%;
+}
+.img_middle{
+  margin-bottom: 0vh;
+}
+
+.stamps{
+  width: 45%;
+  margin: 2vh;
+}
+
+.title_aside{
+  font-size: 3vh;
+  text-align: center;
+  margin-top: 1vh;
+}
+.divider_aside, .divider_aside_project, .divider_aside_img{
+  border-top: 0.2vh solid #A40606;  
+  margin-top: 1vh; 
+  display:flex;
+  padding-top: 2vh;
+}
+.divider_aside_project{
+  display:block;
+  align-items: center;
+}
+.divider_aside_img{
+  display:block;
+  border-top: 0px;
+  margin-top: -2vh;
+}
+.divider_sub_title{
+  float:left;
+  margin-left: 1vh;
+  width: 22vh;
+  font-weight: bold;
+}
+
+.divider_inside_text, .divider_img_text {
+  margin:0vh 0vh 1vh 0vh;
+  max-width: 40vh;
+}
+
+/* IMGS ASIDE*/
+.flag_divider{
+  height: 2vh;
+  width: 3vh;
+  margin: 0.5vh 1vh 0vh 0vh;
+}
+.logo_divider{
+  height: 3.2vh;
+  width: 2.8vh;
+  margin: 0vh 1vh 0vh 0vh;
+}
+.divider_img_text{
+  display: flex;
+  
+}
+
+
+/* SECTION INFO*/
+.dividers{
+  width: 19%;
+}
+.title_section_info{
+  margin-top: 0vh;
+  margin-bottom:0vh;
+  border-bottom: solid 0.5vh #080000 ;
+}
+
+.text_2_sub{
+  font-weight: bold;
+  margin: 2vh 0vh 2vh 0vh;
+  font-size: 4vh;
+}
+
+/*LINKS*/
+.socials, .other_pages{
+  font-weight: bolder;
+  font-size: 3vh;
+  border: solid 0.5vh #080000;
+  padding: 1.5vh;
+  margin-left: 1vh;
+  color: #A40606;
+  background-color: #080000;
+  border-radius: 10px;
+}
+.socials{
+  background-image: url('../stamps/eyesopening.gif');
+}
+.source{
+  text-decoration: none;
+}
+/*OTHER PAGERS */
+#middle_fav{
+  margin: 2vh 0vh 0vh 47vh;
+}
+
+@media screen and (max-width: 700px) {
+  #middle, #right, #left, #middle_fav{
+    float: left;
+    width:100%;
+  }
+  #wrapper, #footer{
+    max-width:100%;
+    height:100%;
+    margin: 0 auto;
+  }
+  #footer_text{
+    margin: 1000vh 2vh 5vh 0vh;
+    font-size: 1vh;
+  }
+  .socials{
+    max-width: 20%;
+    font-size: 1vh;
+  }
+  .section_info_middle{
+    padding: 2vh 2vh 4vh 0vh;
+  }
+  #middle_fav{
+    margin: 0vh 0vh 0vh 0vh;
+    max-width: 100%;
+  }
+}
+
